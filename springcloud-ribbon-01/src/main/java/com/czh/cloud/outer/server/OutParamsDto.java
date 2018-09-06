@@ -1,4 +1,4 @@
-package com.czh.springcloud;
+package com.czh.cloud.outer.server;
 /**  
 * <p>Title: OutParamsDto.java</p>  
 * <p>Description: </p>  

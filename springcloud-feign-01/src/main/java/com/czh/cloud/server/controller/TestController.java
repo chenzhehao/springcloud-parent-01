@@ -1,14 +1,18 @@
-package com.czh.springcloud.controller;
+package com.czh.cloud.server.controller;
 
+import com.czh.cloud.outer.server.ComputeClient1;
+import com.czh.cloud.outer.server.InParamsDto;
+import com.czh.cloud.server.ComputeClient1;
+import com.czh.cloud.server.InParamsDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.czh.springcloud.ComputeClient;
-import com.czh.springcloud.ComputeClient1;
-import com.czh.springcloud.InParamsDto;
-import com.czh.springcloud.OutParamsDto;
+import com.czh.cloud.ComputeClient;
+import com.czh.cloud.ComputeClient1;
+import com.czh.cloud.InParamsDto;
+import com.czh.cloud.OutParamsDto;
 
 /**  
 * <p>Title: TestController.java</p>  
@@ -24,7 +28,7 @@ public class TestController {
 	@Autowired
     ComputeClient computeClient;
 	@Autowired
-	ComputeClient1 computeClient1;
+    ComputeClient1 computeClient1;
 
     @RequestMapping(value = "/add", method = RequestMethod.GET)
     public Integer add() {

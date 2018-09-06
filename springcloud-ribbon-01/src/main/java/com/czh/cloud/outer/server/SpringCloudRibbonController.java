@@ -1,4 +1,4 @@
-package com.czh.springcloud;
+package com.czh.cloud.outer.server;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
